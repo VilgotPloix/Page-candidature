@@ -1,0 +1,69 @@
+.bodyWebsites
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.websites
+{
+    width: 1346px;
+    height: 793px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cadre
+{
+    width: 630px;
+    height: 330px;
+    position: relative;
+}
+
+.websitesImg:hover
+{
+    filter: blur(20px);
+}
+
+.cadre:hover .modal
+{
+    opacity: 1;
+}
+
+.websitesImg
+{
+    width: 100%;
+    height: 98%;
+    transition: all 0.5s ease-in-out;
+}
+
+.modal
+{
+    width: 450px;
+    height: 135px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.title, .desc
+{
+    color: rgb(53, 18, 18);
+}
+
+.title
+{
+    font-size: 32px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,39 @@
+*
+{
+    font-family: 'Satoshi', sans-serif;
+    font-weight: 100;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+.bodyPresentation
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+}
+
+.textPresentation
+{
+    text-align: center;
+}
+
+.presentation
+{
+    height: 650px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.presentation p 
+{
+    font-size: 20px;
+}
+
+
